@@ -13,7 +13,6 @@ html, body {
     width: 100vw;
     height: 100vh;
     object-fit: cover; /* Cover the entire viewport */
-    z-index: -1;
 }
 
 /* Media query for when the window's aspect ratio matches the video's aspect ratio */

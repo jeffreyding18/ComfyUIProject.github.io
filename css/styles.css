@@ -1,0 +1,24 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+/* Style the video */
+#videoBG {
+    position: absolute; /* Use absolute positioning */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Cover the entire viewport */
+    z-index: -1;
+}
+
+/* Media query for when the window's aspect ratio matches the video's aspect ratio */
+@media (aspect-ratio: 16/9) {
+    #videoBG {
+        object-fit: contain; /* Show the full video */
+    }
+}

@@ -7,25 +7,14 @@ html, body {
     overflow: hidden; /* Hide scrollbars */
 }
 
-.video-container {
-
-}
-
-.video-container video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Style the video
+/* Style the video */
 #videoBG {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100lvw;
+    height: 100lvh;
     object-fit: cover;
 }
-*/
+
 
 /* Media query for when the window's aspect ratio matches the video's aspect ratio */
 @media (aspect-ratio: 16/9) {
